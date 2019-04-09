@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="Julian LEBOUC" content="Personal Website">
+      <title>Julian LEBOUC</title>
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                    <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                    <div id="stripes3" class="pattern"></div>
+                    <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+                    <div id="stripes3" class="pattern"></div>
+                    <li class="nav-item"><a class="item-anchor" href="portfolio.html">Portfolio</a></li>
+                    <div id="stripes3" class="pattern"></div>
+                    <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1>
+                     Are you interested in my profile yet ? <br>
+                     Give me a call !
+                  </h1>
+                   <h2>07 82 50 17 99</h2>
+                  <h4><a href="mailto:julian.lebouc@etudiant.univ-rennes1.fr">julian.lebouc@etudiant.univ-rennes1.fr</a></h4>
+                    <a href="https://www.linkedin.com/in/julian-lebouc-851619134/">LinkedIn</a>
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-45" src="img/5.jpg" alt="me">
+               </div>
+            </div>
+         </div>
+         </section>
+      <!-- script -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+           <div onmouseover="MouseoverMessageInAlertBox()" style="float:right;">:)</div>
+       <script type="text/javascript">
+           var count = 0;
+           var message = "How did you get that far ?";
+           var message2 = "\n\nHey could you buy eggs for tonight ? I'm gonna make a Carbonara.\n\n "
+           var message3 = "\n\nDo you know this won't end ?\n\n "
+           var message4 = "\n\nIt actually does end, I am proud of you. If you come see me I'll give you some candies.\n\n "
+           function MouseoverMessageInAlertBox()
+           {
+               if(count<1){alert(message);}
+               else if(count<2){alert(message2);}
+               else if(count<3){alert(message3);}
+               else if(count<4){alert(message4);}
+               count++;
+           }
+       </script>
+   </body>
+</html>
